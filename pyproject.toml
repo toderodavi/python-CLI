@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "week01_tóderodavi"
+name = "week01_toderodavi"
 version = "0.0.1"
 dependencies = []
 license = "MIT"
@@ -13,4 +13,4 @@ Homepage = "https://github.com/toderodavi/python-CLI"
 
 
 [project.scripts]
-todo = "week01_tóderodavi.main:main"
+todo = "week01_toderodavi.main:main"
