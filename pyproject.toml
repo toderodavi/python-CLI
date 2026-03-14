@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "week01_toderodavi"
+version = "0.0.1"
+dependencies = []
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/toderodavi/python-CLI"
+
+
+[project.scripts]
+todo = "week01_toderodavi.main:main"
