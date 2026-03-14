@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "week01_tóderodavi"
+version = "0.0.1"
+dependencies = []
+
+[project.scripts]
+todo = "week01_tóderodavi.main:main"
