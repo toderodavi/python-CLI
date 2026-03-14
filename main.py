@@ -32,6 +32,10 @@ if len(sys.argv) == 1:
 
 if args.list:
     tasks = load_tasks()
+    if len(tasks) == 0:
+        print("There are no tasks to be shown.")
+        sys.exit(0)
+        
     for task in tasks:
         status = "x" if task["done"] else " "
         print(f"[{status}] {task['id']}: {task['task']}")
