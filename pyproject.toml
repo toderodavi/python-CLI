@@ -6,6 +6,11 @@ build-backend = "hatchling.build"
 name = "week01_tóderodavi"
 version = "0.0.1"
 dependencies = []
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/toderodavi/python-CLI"
+
 
 [project.scripts]
 todo = "week01_tóderodavi.main:main"
